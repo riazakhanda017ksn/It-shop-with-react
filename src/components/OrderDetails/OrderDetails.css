@@ -1,0 +1,26 @@
+
+.order-details h6 {
+    font-size: 14px;
+    color: #767676;
+    padding: 5px 0;
+}
+
+.order-gif img {
+    height: 350px;
+}
+.order-gif{
+    text-align: center;
+}
+
+.order-details {
+    padding: 54px;
+    box-shadow: 2px -1px 23px #8080803b;
+    margin: 24px 0;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 880px)  {
+    .add-product {
+        margin-top: 86px!important;
+    }
+}

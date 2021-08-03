@@ -1,0 +1,124 @@
+ul.navbar-nav.menu {
+    margin-left: auto;
+    font-size: 14px;
+    margin-right: 7px;
+}
+ul.navbar-nav.menu li a {
+    text-decoration: none;
+    margin-right: 52px;
+    color: #111;
+    font-weight: 600;
+    line-height: 35px;
+    display: inline-block;
+
+
+}
+
+.background{
+    background: #FDFDFD;
+    transition: .3s ease-in-out;
+}
+
+.search-item img {
+    height: 42px;
+    padding: 0 25px;
+}
+.search-item input {
+    width: 100%;
+    outline: none;
+    padding: 12px 10px;
+    border: 1px solid #b7acac;
+    border-radius: 37px;
+}
+ul.navbar-nav.menu li button {
+    color: #FFF;
+    padding: 2px 28px;
+    position: relative;
+    top: 3px;
+    right: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.div-for-logo img {
+    height: 55px;
+    padding: 6px 33px;
+}
+
+.menu li a {
+    text-decoration: none;
+    margin-right: 52px;
+    color: #111;
+    font-weight: 600;
+    line-height: 35px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+ul.navbar-nav.menu li a:hover {
+    color: #6274df;
+}
+span.ml-4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 6px;
+    position: relative;
+    bottom: 3px;
+    color: #3a292ab0;
+ 
+}
+.search-item input {
+    width: 100%;
+    outline: none;
+    padding: 13px 10px;
+    border: 1px solid #b7acac;
+    border-radius: 37px;
+}
+::placeholder {
+    color: #767676;
+    opacity: 1; 
+  }
+
+  .search-item input {
+    width: 100%;
+    outline: none;
+    padding: 13px 25px;
+    border: 1px solid #b7acac;
+    border-radius: 37px;
+}
+  .search-item input:hover{
+    border: 1px solid #03638f
+}
+  .search-item input:focus{
+    border: 1px solid #03638f
+}
+  
+.search-item img {
+    height: 42px;
+    padding: 0px 3px;
+    position: relative;
+    top: 3px;
+}
+a.navbar-brand.mobile {
+    color: #1b70c6bd;
+    background: #dddddd59;
+    padding: 4px 12px;
+    border-radius: 10px;
+    transition: .4s;
+}
+a.navbar-brand.mobile:hover{color:rgb(30, 100, 180);border-bottom: 1px solid #6274df;}
+.search-item.text-center {
+    display: flex;
+    margin-left: 78px;
+}
+
+.search-item.text-center button {
+    position: relative;
+    right: 98px;
+    padding: 0 25px;
+}
+.google-sing-in.d-flex {
+    background: #dddddd70;
+    border-radius: 6px;
+}

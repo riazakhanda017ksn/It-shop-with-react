@@ -1,0 +1,56 @@
+.background-one{
+    background: url(../../images/blocks-01voTCIdeWw-unsplash.jpg)no-repeat fixed top center;
+    position: relative;
+    background-size: fixed;
+    background-size: cover;
+    height:100vh;
+    object-fit: cover;
+}
+.background-one::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.685);
+
+}
+    
+.background-two{
+    background: url(../../images/anh-nhat-whIInzoSukc-unsplash.jpg)no-repeat fixed top center;
+    position: relative;
+    background-size: fixed;
+    background-size: cover;
+    height:100vh;
+}
+.background-two::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.685);}
+.background-three{
+    background: url(../../images/dennis-brendel-AKTpApibGRc-unsplash.jpg)no-repeat fixed ;
+    position: relative;
+    background-size: fixed;
+    background-size: cover;
+    height:100vh;
+    background-position: center 16%;
+}
+.background-three::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.685);}
+
+
+    button.carousel-control-prev {
+        opacity: 0;
+        display: none;
+    }

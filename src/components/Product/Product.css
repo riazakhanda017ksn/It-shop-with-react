@@ -1,0 +1,141 @@
+/* .card-img img {height:200px
+} */
+
+.product-showing img {
+    height: 229px;
+    margin-top: 100px;
+}
+.img-title h5 {
+    padding: 7px 1px;
+    font-size: 16px;
+    background: rebeccapurple;
+}
+.flex-need strong {
+    color: #0095ff;
+    position: relative;
+}
+.product h5 {
+    font-size: 20px;
+    color: #383737;
+    padding-bottom: 4px;
+}
+.product p {
+    color: #767676;
+    font-size: 15px;
+    text-align: justify;
+}
+.product h5 {
+    font-size: 16px;
+    color: #383737;
+    padding-bottom: 4px;
+}
+
+.product-price {
+    margin-left: auto;
+}
+.product-price a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+.flex-need h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.flex-need {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    padding-right: 33px;
+}
+
+
+@media only screen and (max-device-width: 1005px) {
+    .card-img  {
+        padding: 20px 0;
+        width: 50%;
+        display: inline-block;
+        padding-left: 66px;
+    }
+
+}
+@media only screen and (max-device-width:770px) {
+    .card-img  {
+        padding: 20px 0;
+        width: 100%;
+        display: inline-block;
+        padding-left: 66px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-device-width:430px) {
+    .card-img  {
+        padding: 20px 0;
+        width: 100%;
+        display: inline-block;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      
+    }
+    
+}
+
+
+ .product button {
+	border: none;
+	background: #7d7d7d;
+	color: #f2f2f2;
+	padding: 10px 35px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+  overflow:hidden
+}
+
+.product button:before {
+	font-family: FontAwesome;
+	content:"\f217";
+	position: absolute;
+	top: 11px;
+	left: -30px;
+	transition: all 200ms ease;
+}
+
+.product button:hover:before {
+	left: 33px;
+}
+
+.product button:hover {
+ color: #fff!important;
+ background: #007ec7;
+}
+.div-for-spinner img {
+    text-align: center;
+    height: 224px;
+}
+
+.product button {
+    border: none;
+    color: #007ec7;
+    padding: 10px 59px;
+    font-size: 14px;
+    border-radius: 67px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    overflow: hidden;
+    background: none;
+    border: 2px solid #007ec7;
+}
