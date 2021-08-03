@@ -1,4 +1,3 @@
-# full-stack-client-riazakhanda017ksn# react-auth-riazakhanda017ksn
 ## website name - Your IT Shop
 
 **in this website i showed products and also showed a user log In form and also showed CheckOut page with   input form with send this in mongodb database and also i showed the in this website**
