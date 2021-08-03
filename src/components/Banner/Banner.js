@@ -20,9 +20,9 @@ const Banner = () => {
                       <div className="caption animate__animated animate__backInLeft">
                         <h1>The Brand New Iphone XS Max</h1>
                         <p>
-                          The Samsung Galaxy S20 isn't the most cutting-edge of
-                          Samsung's S20 lineup – that honor goes to the Galaxy
-                          S20 Ultra
+                          iPhone XS and iPhone XS Max feature the sharpest OLED
+                          displays and highest pixel density of any Apple
+                          device,
                           <br /> HDR 10,br and Wide Color. iPhone XS Max the
                           6.5-inch .
                         </p>
@@ -69,10 +69,10 @@ const Banner = () => {
                       <div className="caption animate__animated animate__backInLeft">
                         <h1>The Brand New Samsung S20</h1>
                         <p>
-                          The Samsung Galaxy S20 isn't the most cutting-edge of
-                          Samsung's S20 lineup – that honor goes to the Galaxy
-                          S20 Ultra
-                          <br /> HDR 10,br and Wide Color. iPhone XS Max the
+                          iPhone 12 pro and iPhone 12 pro feature the sharpest
+                          OLED displays and highest pixel density of any Apple
+                          device with
+                          <br /> HDR 10,br and Wide Color. iPhone 12 pro the
                           6.5-inch .
                         </p>
 

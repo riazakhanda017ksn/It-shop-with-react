@@ -88,10 +88,11 @@ span.ml-4 {
     border-radius: 37px;
 }
   .search-item input:hover{
-    border: 1px solid #03638f
+    border: 1px solid #0073df
 }
   .search-item input:focus{
-    border: 1px solid #03638f
+    border: 1px solid #0073df;
+    background: #fafafa;
 }
   
 .search-item img {
@@ -121,4 +122,14 @@ a.navbar-brand.mobile:hover{color:rgb(30, 100, 180);border-bottom: 1px solid #62
 .google-sing-in.d-flex {
     background: #dddddd70;
     border-radius: 6px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 900px)  {
+    ul.navbar-nav {
+        text-align: center;
+    }
 }

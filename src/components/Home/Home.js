@@ -8,11 +8,17 @@ import Pagination from "../Pagination/Pagination";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
+  const [search, setSearch] = useState(" ");
   useEffect(() => {
-    fetch("https://cryptic-ravine-00737.herokuapp.com/events")
+    fetch("https://cryptic-ravine-00737.herokuapp.com/events?search=" + search)
       .then((res) => res.json())
       .then((data) => setProducts(data));
-  }, [0]);
+  }, [search]);
+  // ============>
+  const handleSearch = (event) => {
+    setSearch(event.target.value);
+    console.log("event.target.value", event.target.value);
+  };
 
   ///pagination-part
   const [currentPage, setCurrentPage] = useState(1);
@@ -38,6 +44,7 @@ const Home = () => {
                 <div className="search-item text-center mb-1">
                   <input
                     type="search"
+                    onBlur={handleSearch}
                     name=""
                     id=""
                     placeholder="Search your favorite mobile"
