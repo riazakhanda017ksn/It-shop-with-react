@@ -5,7 +5,7 @@
 
 Links [here the It shop](https://your-it-shop.web.app/)
 
-## there are ten (10) component that i used
+## there are ten (14) component that i used
 1. Header
 1. Home
 1. product
@@ -15,7 +15,7 @@ Links [here the It shop](https://your-it-shop.web.app/)
 1. LogIn
 1. Manage Product
 1. Product list
-1. Private Data
+1. Private Data etc
 
 ## here the features of the website
 
