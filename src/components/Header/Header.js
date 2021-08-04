@@ -58,9 +58,9 @@ const Header = () => {
 
               <li onClick={() => setLoggedInUser({})}>
                 {loggedInUser?.email ? (
-                  <Link to="/">SingOut</Link>
+                  <Link to="/">Log Out</Link>
                 ) : (
-                  <Link to="/login">Sing In</Link>
+                  <Link to="/login">Log In</Link>
                 )}
               </li>
             </ul>

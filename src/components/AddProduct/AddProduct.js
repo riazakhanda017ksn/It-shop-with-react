@@ -137,21 +137,21 @@ const AddProduct = () => {
                   <input
                     name="name"
                     placeholder="Product Name"
-                    ref={register}
+                    {...register("name")}
                     required
                   />
 
                   <input
                     name="quantity"
                     placeholder="Quantity"
-                    ref={register}
+                    {...register("quantity")}
                     required
                   />
 
                   <input
                     name="price"
                     placeholder="Add Price"
-                    ref={register}
+                    {...register("price")}
                     required
                   />
 

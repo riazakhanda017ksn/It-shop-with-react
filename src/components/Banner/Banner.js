@@ -67,7 +67,7 @@ const Banner = () => {
                   <div className="col-lg-6">
                     <div className="banner-caption py-5">
                       <div className="caption animate__animated animate__backInLeft">
-                        <h1>The Brand New Samsung S20</h1>
+                        <h1>The Brand New iPhone 12 pro</h1>
                         <p>
                           iPhone 12 pro and iPhone 12 pro feature the sharpest
                           OLED displays and highest pixel density of any Apple

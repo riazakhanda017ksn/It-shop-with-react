@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { UserContext } from "../../App";
 
 const Header = () => {
+  const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
     if (window.scrollY > 170) {
@@ -52,8 +54,12 @@ const Header = () => {
               <Link to="/admin">About</Link>
             </li>
 
-            <li>
-              <Link to="/login">Log In</Link>
+            <li onClick={() => setLoggedInUser({})}>
+              {loggedInUser?.email ? (
+                <Link to="/">Log Out</Link>
+              ) : (
+                <Link to="/login">Log In</Link>
+              )}
             </li>
             <li>
               <Link to="/home">
