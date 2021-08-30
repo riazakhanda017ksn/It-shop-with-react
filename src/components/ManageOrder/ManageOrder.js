@@ -8,13 +8,16 @@ import ProductList from "../ProductList/ProductList";
 import "./ManageOrder.css";
 const ManageOrder = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
-
+  const [search, setSearch] = useState(" ");
   const [manages, setManages] = useState([]);
   useEffect(() => {
-    fetch("https://cryptic-ravine-00737.herokuapp.com/events")
+    fetch("https://cryptic-ravine-00737.herokuapp.com/events?search=" + search)
       .then((res) => res.json())
-      .then((data) => setManages(data));
-  });
+      .then((data) => {
+        setManages(data);
+        console.log(data);
+      });
+  }, [search]);
   return (
     <div>
       <div className="mb-5 pb-5">

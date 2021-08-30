@@ -10,14 +10,16 @@ const CheckOut = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   const { _id } = useParams();
   const [data, setData] = useState([]);
+  const [search, setSearch] = useState(" ");
   useEffect(() => {
-    fetch("https://cryptic-ravine-00737.herokuapp.com/events")
+    fetch("https://cryptic-ravine-00737.herokuapp.com/events?search=" + search)
       .then((res) => res.json())
       .then((data) => setData(data));
-  }, [0]);
-  const findResult = data.find((data) => data._id == _id);
-  const name = findResult?.name;
+  }, [search]);
+  const findResult = data.find((data) => data._id === _id);
+  console.log("findResult", findResult);
 
+  const name = findResult?.name;
   const price = findResult?.price;
 
   const email = loggedInUser.email;
